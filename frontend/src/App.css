@@ -1,0 +1,39 @@
+
+
+.LandingPageContainer{
+    
+    width: 100vw;
+    height: 100vh;
+    background: url("/public/backg.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.LandingPageContainer nav h2{
+    font-size: xxx-small;
+}
+.LandingPageContainer nav{
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.LandingPageContainer nav .navList{
+    display: flex;
+    gap: 13px;
+    cursor: pointer;
+}
+.words{
+    padding: 16px;
+}
+.LandingMainContainer{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.imagess img{
+    height: 310px;
+    width: 400px;
+    rotate: 20deg;
+    
+}
